@@ -316,6 +316,8 @@ static NSDateFormatter *historyDateFormatter = nil;
         return [NSString stringWithFormat:@"%@/%@", location.state, city];
     } else if (location.country) {
         return [NSString stringWithFormat:@"%@/%@", location.country, city];
+    } else if(location.zipcode){
+        return [NSString stringWithFormat:@"%@",location.zipcode];
     }
     
     return [NSString stringWithFormat:@"%.4f,%.4f", location.coordinate.latitude,
@@ -323,3 +325,7 @@ static NSDateFormatter *historyDateFormatter = nil;
 }
 
 @end
+
+
+
+

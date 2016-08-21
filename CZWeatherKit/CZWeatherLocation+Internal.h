@@ -62,4 +62,9 @@
  */
 @property (readonly, NS_NONATOMIC_IOSONLY) NSString *state;
 
+/**
+ @warning Not for external use.
+ */
+@property (readonly, NS_NONATOMIC_IOSONLY) NSString *zipcode;
+
 @end
