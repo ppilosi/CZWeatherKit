@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22E2D3506408761263D816D4 /* libPods-CZWeatherKit OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5871EA2F9A1866D9809A9BAA /* libPods-CZWeatherKit OSX.a */; };
-		2909C01FE18707F98A465FB8 /* libPods-CZWeatherKit iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31627C20C671466E6E1F5386 /* libPods-CZWeatherKit iOS.a */; settings = {ATTRIBUTES = (Required, ); }; };
-		AFDBE0B803884DDA6D9886D8 /* libPods-CZWeatherKit tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF919B78AE21E2FBF532D37 /* libPods-CZWeatherKit tvOS.a */; };
+		33FA6B5B755C0B0DD4EAF04E /* libPods-CZWeatherKit tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5906160D63F95135EB532BA /* libPods-CZWeatherKit tvOS.a */; };
+		8E946B73D0B40C4C946D6500 /* libPods-CZWeatherKit iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F11AB2AFD7DCB505979A9 /* libPods-CZWeatherKit iOS.a */; };
+		C67DB51E79227B2A9F5BE6FA /* libPods-CZWeatherKit OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E8ED13D9D151B68C622FA8 /* libPods-CZWeatherKit OSX.a */; };
 		DD025D331B1D638B00F2CBA2 /* CZWeatherKitInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78999F1B142B6B00FAF7DE /* CZWeatherKitInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DD025D341B1D639A00F2CBA2 /* CZWeatherKitInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = DD78999F1B142B6B00FAF7DE /* CZWeatherKitInternal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DD0DA9291B093414008CDEAE /* CZForecastioRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0DA9271B093414008CDEAE /* CZForecastioRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -280,16 +280,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00B7603CE5EFDDAF8069AEA5 /* Pods-CZWeatherKit OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit OSX/Pods-CZWeatherKit OSX.debug.xcconfig"; sourceTree = "<group>"; };
-		16D41916E40CCC374D582D13 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		31627C20C671466E6E1F5386 /* libPods-CZWeatherKit iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZWeatherKit iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ABE6B88A76FCFB42BF23648 /* Pods-CZWeatherKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit tvOS/Pods-CZWeatherKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		3EADBA28828ECE9DA5F3BD2E /* Pods-CZWeatherKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit iOS/Pods-CZWeatherKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		5871EA2F9A1866D9809A9BAA /* libPods-CZWeatherKit OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZWeatherKit OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AF919B78AE21E2FBF532D37 /* libPods-CZWeatherKit tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZWeatherKit tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B36DE399FEFFB74A4156073 /* Pods-CZWeatherKit OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit OSX/Pods-CZWeatherKit OSX.release.xcconfig"; sourceTree = "<group>"; };
-		AAF0007CE8DCDD99ABE7246B /* Pods-CZWeatherKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit iOS/Pods-CZWeatherKit iOS.release.xcconfig"; sourceTree = "<group>"; };
-		CDBF1C8736B52CE915D316B7 /* Pods-CZWeatherKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit tvOS/Pods-CZWeatherKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0B0F11AB2AFD7DCB505979A9 /* libPods-CZWeatherKit iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZWeatherKit iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADF1FD2995187A5E7716FF3 /* Pods-CZWeatherKit OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit OSX/Pods-CZWeatherKit OSX.release.xcconfig"; sourceTree = "<group>"; };
+		8A0D5A5A0D78616D623DF8F3 /* Pods-CZWeatherKit iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit iOS/Pods-CZWeatherKit iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AECC59A7CF825D5317804CEA /* Pods-CZWeatherKit tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit tvOS/Pods-CZWeatherKit tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D00C28A887AE8E147769540F /* Pods-CZWeatherKit tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit tvOS/Pods-CZWeatherKit tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		DD025D2C1B1D4CDC00F2CBA2 /* CZWeatherKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CZWeatherKit.playground; sourceTree = "<group>"; };
 		DD0DA9271B093414008CDEAE /* CZForecastioRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZForecastioRequest.h; sourceTree = "<group>"; };
 		DD0DA9281B093414008CDEAE /* CZForecastioRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZForecastioRequest.m; sourceTree = "<group>"; };
@@ -346,12 +341,8 @@
 		DDA983191B2E524A004C18D8 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
 		DDA9831B1B2E525F004C18D8 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = "Pods/../build/Debug-iphoneos/Pods/PINCache.framework"; sourceTree = "<group>"; };
 		DDA9831D1B2E5266004C18D8 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = "Pods/../build/Debug-iphoneos/Pods/PINCache.framework"; sourceTree = "<group>"; };
-		DDA983261B315638004C18D8 /* Pods_CZWeatherKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CZWeatherKit_iOS.framework; path = "Pods/../build/Debug-iphoneos/Pods_CZWeatherKit_iOS.framework"; sourceTree = "<group>"; };
-		DDA983281B31564C004C18D8 /* Pods_CZWeatherKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CZWeatherKit_iOS.framework; path = "Pods/../build/Debug-iphoneos/Pods_CZWeatherKit_iOS.framework"; sourceTree = "<group>"; };
 		DDA9832A1B315655004C18D8 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = "Pods/../build/Debug-iphoneos/Pods-CZWeatherKit iOS/PINCache.framework"; sourceTree = "<group>"; };
 		DDA9832C1B31566F004C18D8 /* PINCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINCache.framework; path = "Pods/../build/Debug/Pods-CZWeatherKit OSX/PINCache.framework"; sourceTree = "<group>"; };
-		DDA9832E1B3156DB004C18D8 /* Pods_CZWeatherKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CZWeatherKit_iOS.framework; path = "Pods/../build/Debug-iphoneos/Pods_CZWeatherKit_iOS.framework"; sourceTree = "<group>"; };
-		DDA983301B3156E3004C18D8 /* Pods_CZWeatherKit_OSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CZWeatherKit_OSX.framework; path = Pods/../build/Debug/Pods_CZWeatherKit_OSX.framework; sourceTree = "<group>"; };
 		DDA983381B315DF0004C18D8 /* CZWeatherServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWeatherServiceTests.m; sourceTree = "<group>"; };
 		DDA983401B3161FB004C18D8 /* CZTestWeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTestWeatherService.h; sourceTree = "<group>"; };
 		DDA983411B3161FB004C18D8 /* CZTestWeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTestWeatherService.m; sourceTree = "<group>"; };
@@ -381,6 +372,10 @@
 		DDE06E931B1A938B009EEE4A /* openweathermap_history.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = openweathermap_history.json; sourceTree = "<group>"; };
 		DDEA50A31B2D00A500BDEEF0 /* CZPINWeatherDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPINWeatherDataCache.h; sourceTree = "<group>"; };
 		DDEA50A41B2D00A500BDEEF0 /* CZPINWeatherDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPINWeatherDataCache.m; sourceTree = "<group>"; };
+		EA02EB5EC32DEFB81E593AC8 /* Pods-CZWeatherKit OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit OSX/Pods-CZWeatherKit OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		EE62B7255837B0909900755E /* Pods-CZWeatherKit iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CZWeatherKit iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CZWeatherKit iOS/Pods-CZWeatherKit iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F5906160D63F95135EB532BA /* libPods-CZWeatherKit tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZWeatherKit tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E8ED13D9D151B68C622FA8 /* libPods-CZWeatherKit OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CZWeatherKit OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -402,7 +397,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E2D3506408761263D816D4 /* libPods-CZWeatherKit OSX.a in Frameworks */,
+				C67DB51E79227B2A9F5BE6FA /* libPods-CZWeatherKit OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +405,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFDBE0B803884DDA6D9886D8 /* libPods-CZWeatherKit tvOS.a in Frameworks */,
+				33FA6B5B755C0B0DD4EAF04E /* libPods-CZWeatherKit tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +420,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2909C01FE18707F98A465FB8 /* libPods-CZWeatherKit iOS.a in Frameworks */,
+				8E946B73D0B40C4C946D6500 /* libPods-CZWeatherKit iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,33 +431,28 @@
 			isa = PBXGroup;
 			children = (
 				DD7D40B31BFC3BEB00CB9420 /* TVServices.framework */,
-				DDA983301B3156E3004C18D8 /* Pods_CZWeatherKit_OSX.framework */,
-				DDA9832E1B3156DB004C18D8 /* Pods_CZWeatherKit_iOS.framework */,
 				DDA9832C1B31566F004C18D8 /* PINCache.framework */,
 				DDA9832A1B315655004C18D8 /* PINCache.framework */,
-				DDA983281B31564C004C18D8 /* Pods_CZWeatherKit_iOS.framework */,
-				DDA983261B315638004C18D8 /* Pods_CZWeatherKit_iOS.framework */,
 				DDA9831D1B2E5266004C18D8 /* PINCache.framework */,
 				DDA9831B1B2E525F004C18D8 /* PINCache.framework */,
 				DDA983191B2E524A004C18D8 /* Pods.framework */,
 				DDA983171B2E5243004C18D8 /* Pods.framework */,
-				16D41916E40CCC374D582D13 /* libPods.a */,
-				5871EA2F9A1866D9809A9BAA /* libPods-CZWeatherKit OSX.a */,
-				31627C20C671466E6E1F5386 /* libPods-CZWeatherKit iOS.a */,
-				7AF919B78AE21E2FBF532D37 /* libPods-CZWeatherKit tvOS.a */,
+				F8E8ED13D9D151B68C622FA8 /* libPods-CZWeatherKit OSX.a */,
+				0B0F11AB2AFD7DCB505979A9 /* libPods-CZWeatherKit iOS.a */,
+				F5906160D63F95135EB532BA /* libPods-CZWeatherKit tvOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D588C3676243563FC3C5BF66 /* Pods */ = {
+		88426F36F218D8BB74004474 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B36DE399FEFFB74A4156073 /* Pods-CZWeatherKit OSX.release.xcconfig */,
-				00B7603CE5EFDDAF8069AEA5 /* Pods-CZWeatherKit OSX.debug.xcconfig */,
-				AAF0007CE8DCDD99ABE7246B /* Pods-CZWeatherKit iOS.release.xcconfig */,
-				3EADBA28828ECE9DA5F3BD2E /* Pods-CZWeatherKit iOS.debug.xcconfig */,
-				3ABE6B88A76FCFB42BF23648 /* Pods-CZWeatherKit tvOS.release.xcconfig */,
-				CDBF1C8736B52CE915D316B7 /* Pods-CZWeatherKit tvOS.debug.xcconfig */,
+				3ADF1FD2995187A5E7716FF3 /* Pods-CZWeatherKit OSX.release.xcconfig */,
+				EA02EB5EC32DEFB81E593AC8 /* Pods-CZWeatherKit OSX.debug.xcconfig */,
+				EE62B7255837B0909900755E /* Pods-CZWeatherKit iOS.release.xcconfig */,
+				8A0D5A5A0D78616D623DF8F3 /* Pods-CZWeatherKit iOS.debug.xcconfig */,
+				D00C28A887AE8E147769540F /* Pods-CZWeatherKit tvOS.release.xcconfig */,
+				AECC59A7CF825D5317804CEA /* Pods-CZWeatherKit tvOS.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -605,7 +595,7 @@
 				DD5F57901B06DACB00C90D15 /* CZWeatherKit Tests */,
 				DD7E380C1B05938000DBAD3D /* Products */,
 				26AEC4D9036D5A8D353C3D50 /* Frameworks */,
-				D588C3676243563FC3C5BF66 /* Pods */,
+				88426F36F218D8BB74004474 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -915,12 +905,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD5F582A1B06E15900C90D15 /* Build configuration list for PBXNativeTarget "CZWeatherKit OSX" */;
 			buildPhases = (
-				8B4451DA0875C9463CFEABE3 /* Check Pods Manifest.lock */,
+				664410E6B06D60DCCB35C2A2 /* [CP] Check Pods Manifest.lock */,
 				DD5F58121B06E15800C90D15 /* Sources */,
 				DD5F58131B06E15800C90D15 /* Frameworks */,
 				DD5F58141B06E15800C90D15 /* Headers */,
 				DD5F58151B06E15800C90D15 /* Resources */,
-				49888238D9914356DDE602BE /* Copy Pods Resources */,
+				48289D7F1F1BABC64535DED1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -935,12 +925,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7D405A1BFC30A600CB9420 /* Build configuration list for PBXNativeTarget "CZWeatherKit tvOS" */;
 			buildPhases = (
-				24CDDED30AA6813AC34E87D9 /* Check Pods Manifest.lock */,
+				1A27CD7563CF39C9E4FB83B1 /* [CP] Check Pods Manifest.lock */,
 				DD7D404E1BFC30A500CB9420 /* Sources */,
 				DD7D404F1BFC30A500CB9420 /* Frameworks */,
 				DD7D40501BFC30A500CB9420 /* Headers */,
 				DD7D40511BFC30A500CB9420 /* Resources */,
-				2D828A04004F587AB55FA156 /* Copy Pods Resources */,
+				31765B791FAE2A2203772450 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -974,12 +964,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7E38211B05938000DBAD3D /* Build configuration list for PBXNativeTarget "CZWeatherKit iOS" */;
 			buildPhases = (
-				2FBA97910CF097B5855941A4 /* Check Pods Manifest.lock */,
+				BA6D130AE9B764E3B88C5A38 /* [CP] Check Pods Manifest.lock */,
 				DD7E38061B05938000DBAD3D /* Sources */,
 				DD7E38071B05938000DBAD3D /* Frameworks */,
 				DD7E38081B05938000DBAD3D /* Headers */,
 				DD7E38091B05938000DBAD3D /* Resources */,
-				01C103288D9CD033B9A1DE11 /* Copy Pods Resources */,
+				81FC857A85D3C9FF2D6B7E6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1124,29 +1114,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01C103288D9CD033B9A1DE11 /* Copy Pods Resources */ = {
+		1A27CD7563CF39C9E4FB83B1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZWeatherKit iOS/Pods-CZWeatherKit iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		24CDDED30AA6813AC34E87D9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1154,14 +1129,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		2D828A04004F587AB55FA156 /* Copy Pods Resources */ = {
+		31765B791FAE2A2203772450 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1169,29 +1144,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZWeatherKit tvOS/Pods-CZWeatherKit tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2FBA97910CF097B5855941A4 /* Check Pods Manifest.lock */ = {
+		48289D7F1F1BABC64535DED1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		49888238D9914356DDE602BE /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1199,14 +1159,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZWeatherKit OSX/Pods-CZWeatherKit OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8B4451DA0875C9463CFEABE3 /* Check Pods Manifest.lock */ = {
+		664410E6B06D60DCCB35C2A2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81FC857A85D3C9FF2D6B7E6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CZWeatherKit iOS/Pods-CZWeatherKit iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA6D130AE9B764E3B88C5A38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1397,7 +1387,7 @@
 		};
 		DD5F582C1B06E15900C90D15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B36DE399FEFFB74A4156073 /* Pods-CZWeatherKit OSX.release.xcconfig */;
+			baseConfigurationReference = 3ADF1FD2995187A5E7716FF3 /* Pods-CZWeatherKit OSX.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1421,7 +1411,7 @@
 		};
 		DD7D40581BFC30A600CB9420 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ABE6B88A76FCFB42BF23648 /* Pods-CZWeatherKit tvOS.release.xcconfig */;
+			baseConfigurationReference = D00C28A887AE8E147769540F /* Pods-CZWeatherKit tvOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -1443,7 +1433,7 @@
 		};
 		DD7D40591BFC30A600CB9420 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDBF1C8736B52CE915D316B7 /* Pods-CZWeatherKit tvOS.debug.xcconfig */;
+			baseConfigurationReference = AECC59A7CF825D5317804CEA /* Pods-CZWeatherKit tvOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1558,7 +1548,7 @@
 		};
 		DD7E38231B05938000DBAD3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAF0007CE8DCDD99ABE7246B /* Pods-CZWeatherKit iOS.release.xcconfig */;
+			baseConfigurationReference = EE62B7255837B0909900755E /* Pods-CZWeatherKit iOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -1626,7 +1616,7 @@
 		};
 		DDA983201B2E530D004C18D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EADBA28828ECE9DA5F3BD2E /* Pods-CZWeatherKit iOS.debug.xcconfig */;
+			baseConfigurationReference = 8A0D5A5A0D78616D623DF8F3 /* Pods-CZWeatherKit iOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				DEFINES_MODULE = YES;
@@ -1647,7 +1637,7 @@
 		};
 		DDA983211B2E530D004C18D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B7603CE5EFDDAF8069AEA5 /* Pods-CZWeatherKit OSX.debug.xcconfig */;
+			baseConfigurationReference = EA02EB5EC32DEFB81E593AC8 /* Pods-CZWeatherKit OSX.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				COMBINE_HIDPI_IMAGES = YES;

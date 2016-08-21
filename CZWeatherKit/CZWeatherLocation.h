@@ -119,4 +119,14 @@
 + (CZWeatherLocation *)locationFromCity:(NSString *)city
                                 country:(NSString *)country;
 
+
+/**
+ Creates and returns a weather location initialized with given zipcode.
+ @param     zipcode
+ The zipcode to use.
+ @return    A newly created CZWeatherLocation.
+ */
++ (CZWeatherLocation *)locationFromZipcode:(NSString *)zipcode;
+
+
 @end

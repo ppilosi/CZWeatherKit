@@ -36,7 +36,9 @@
 @property (NS_NONATOMIC_IOSONLY) NSString *city;
 @property (NS_NONATOMIC_IOSONLY) NSString *state;
 @property (NS_NONATOMIC_IOSONLY) NSString *country;
+@property (NS_NONATOMIC_IOSONLY) NSString *zipcode;
 @property (assign, NS_NONATOMIC_IOSONLY) CLLocationCoordinate2D coordinate;
+
 
 @end
 
@@ -106,6 +108,12 @@
 
 }
 
++ (CZWeatherLocation *)locationFromZipcode:(NSString *)zipcode{
+    CZWeatherLocation *new = [[CZWeatherLocation alloc] _init];
+    new.zipcode = [zipcode copy];
+    return new;
+}
+
 #pragma mark NSObject
 
 - (BOOL)isEqual:(id)object
@@ -128,6 +136,10 @@
         if (self.coordinate.longitude != 0.0 && self.coordinate.latitude != 0.0) {
             return  (self.coordinate.latitude == other.coordinate.latitude &&
                      self.coordinate.longitude == other.coordinate.longitude);
+        }
+        
+        if(self.zipcode && ![self.zipcode isEqualToString:other.zipcode]){
+            return NO;
         }
         
         return YES;
@@ -158,7 +170,10 @@
     } else if (self.city && self.country) {
         return [NSString stringWithFormat:@"%@, %@",
                 [self.city capitalizedString], [self.country capitalizedString]];
-    } else {
+    }else if(self.zipcode){
+        return self.zipcode;
+    }
+    else {
         return [NSString stringWithFormat:@"%.4f, %.4f",
                 self.coordinate.latitude, self.coordinate.longitude];
     }
@@ -175,6 +190,8 @@
                                             forKey:@"state"];
         self.country = [aDecoder decodeObjectOfClass:[NSString class]
                                               forKey:@"country"];
+        self.zipcode = [aDecoder decodeObjectOfClass:[NSString class]
+                                              forKey:@"zipcode"];
         
         CLLocationDegrees latitude = (CLLocationDegrees)[aDecoder decodeDoubleForKey:@"coordinate.latitude"];
         CLLocationDegrees longitude = (CLLocationDegrees)[aDecoder decodeDoubleForKey:@"coordinate.longitude"];
@@ -188,6 +205,7 @@
     [aCoder encodeObject:self.city forKey:@"city"];
     [aCoder encodeObject:self.state forKey:@"state"];
     [aCoder encodeObject:self.country forKey:@"country"];
+    [aCoder encodeObject:self.zipcode forKey:@"zipcode"];
     
     [aCoder encodeDouble:self.coordinate.latitude forKey:@"coordinate.latitude"];
     [aCoder encodeDouble:self.coordinate.longitude forKey:@"coordinate.longitude"];
@@ -208,6 +226,7 @@
     copy.city = [self.city copy];
     copy.state = [self.state copy];
     copy.country = [self.country copy];
+    copy.zipcode = [self.zipcode copy];
     copy.coordinate = self.coordinate;
     return copy;
 }
